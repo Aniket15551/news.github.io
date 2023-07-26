@@ -1,0 +1,152 @@
+.heading{
+    border:1px solid black;
+    height: 150px;
+    width: 100%;
+    background: black;
+    display: flex;
+    gap: 400px;
+}
+.heading h2  {
+    color: white;
+    margin:auto ;
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+}
+.heading h1{
+    color: white;
+    font-size: 15px;
+}
+.container{
+    height: 1000px;
+    width: auto;
+    border 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.subheading{
+    width: 100%;
+    height:30px;
+    background: gray;
+    margin-top: 49px;
+    display: flex;
+    gap: 20px;;
+    background: #1d1b1b;
+}
+.subheading a{
+    color: white;
+    padding-top: 5px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.news{ 
+ 
+    border :1px solid black;
+    width:100%;
+    height:100%;
+    display: flex;
+    background-color: #e9e5e4;
+ 
+    
+}
+
+.content{
+   height:100%;
+   width:75%;
+  border: solid 1px black;
+}
+.image img{
+    height:300px;
+    width:300px;
+}
+td{
+    padding: 40px;
+}
+.read h1 ,p {
+   font-family: 'Times New Roman', Times, serif;
+}
+.sidecolom{
+    height:100%;
+    width:25%;
+}
+
+.horizontal-line {
+    border-bottom: 2px solid black; /* You can adjust the color and thickness as desired */
+    width: 100%; /* Set the width to fill the container */
+    margin-bottom: 10px; /* Optional: Add some spacing above the line */
+  }
+ 
+ #email{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right:0;
+    height:47px;
+    width:60%;
+ }
+#submit{
+    margin: left 0px;;
+    height:50px;
+    width:25%;
+    color: white;
+    background-color: rgb(171, 97, 50);
+}
+ #popular{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+ }
+ #newsletter{
+    font-size: 25px;
+    margin-bottom: 5px;
+ }
+  #smallimg{
+    width:70px;
+    height:70px;
+    padding-left: 0px ;
+  }
+  #smallnews {
+    padding:0px;
+  }
+  #imagecol  {
+   height: 500px;
+  }
+  #detailcol{
+    height:300px
+  }
+  .tablecol table{
+    border-collapse: collapse;
+      width: 100%;
+  }
+  .tablecol th,td{
+    padding: 10px;
+    text-align: left;
+  }
+  .tablecol img{
+    
+        display: block;
+        max-width: 100%;
+      }
+      .row-text {
+        width: 80%;
+        padding-left: 10px;
+      }
+  
+  .image{
+    transition: all 0.5s linear 0s;
+  }
+   .image:hover{
+    transform: scale(1.1);
+   } 
+   
+   .smallimg{
+    transition: all 0.5s linear 0s;
+   }
+   .smallimg:hover{
+    transform: scale(1.5);
+   }
+  
+  .row-text a{
+    text-decoration: none;
+    color: black;
+  }
